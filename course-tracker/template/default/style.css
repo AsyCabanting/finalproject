@@ -1,0 +1,80 @@
+
+/*
+ * Sample stylesheet / template for
+ * a Sympathy project.
+ */
+
+body {
+	
+}
+
+h1 {
+	
+}
+
+p {
+}
+#bg {
+	background-image: url("/bg.jpg");
+	}
+#wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 650px;
+	 
+}
+
+#calendar {
+	float:right;
+}
+
+
+#postnote {
+	float:left;
+		background-color: #ABB8FF;
+		
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+#subjects {
+	margin: 0 auto;
+	width: 400px;
+	background-color: #ABB8FF;
+	
+	padding-right:20px;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+
+#btn {
+  background: #edeaed;
+  background-image: -webkit-linear-gradient(top, #edeaed, #a8aaab);
+  background-image: -moz-linear-gradient(top, #edeaed, #a8aaab);
+  background-image: -ms-linear-gradient(top, #edeaed, #a8aaab);
+  background-image: -o-linear-gradient(top, #edeaed, #a8aaab);
+  background-image: linear-gradient(to bottom, #edeaed, #a8aaab);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  padding: 6px 20px 6px 20px;
+  border: solid #000000 1px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background: #b6b7b8;
+  background-image: -webkit-linear-gradient(top, #b6b7b8, #e3e5e6);
+  background-image: -moz-linear-gradient(top, #b6b7b8, #e3e5e6);
+  background-image: -ms-linear-gradient(top, #b6b7b8, #e3e5e6);
+  background-image: -o-linear-gradient(top, #b6b7b8, #e3e5e6);
+  background-image: linear-gradient(to bottom, #b6b7b8, #e3e5e6);
+  text-decoration: none;
+}

@@ -1,0 +1,63 @@
+
+/*
+ * sympathy.site
+ * A template for a common Sympathy website
+ */
+
+{
+	"settings" : {
+	},
+
+	"handlers" : [
+		{
+			"path" : "/template",
+			"handler" : "com.eqela.sympathy.libcommonhandler.DirectoryHandler",
+			"settings" : {
+				"content_dir" : "template/default",
+				"allow_download_t_files" : "false",
+				"list_directories" : "false"
+			}
+		},
+		{
+			"path" : "",
+			"handler" : "com.eqela.sympathy.libcommonhandler.DirectoryHandler",
+			"settings" : {
+				"template_dir" : "template/default",
+				"content_dir" : "content",
+				"list_directories" : "false"
+			}
+		},
+		{
+			"path" : "/database" ,
+			"handler" : "sympathy.libcustom.SimpleDatabaseHandler"
+		},
+		{
+			"path" : "/delete" ,
+			"handler" : "sympathy.libcustom.SecondHandler"
+		},
+		{
+			"path" : "/notesdb" ,
+			"handler" : "sympathy.libcustom.notesdatabase"
+		},
+		{
+			"path" : "/deletenote" ,
+			"handler" : "sympathy.libcustom.notesDelete"
+		},
+		{
+			"path" : "/boardDB" ,
+			"handler" : "sympathy.libcustom.NoteBoard"
+		},
+		{
+			"path" : "/DeleteboardDB" ,
+			"handler" : "sympathy.libcustom.deleteboard"
+		},
+		{
+			"path" : "/subit" ,
+			"handler" : "sympathy.libcustom.subjectDB"
+		},
+		{
+			"path" : "/delit" ,
+			"handler" : "sympathy.libcustom.deleteSubject"
+		}
+	]
+}
